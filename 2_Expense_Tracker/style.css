@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #86818176;
+}
+
+#form {
+    /* gap */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    min-height: 100px;
+    /* Minimum height */
+    max-height: 800px;
+    /* Maximum height */
+    /* overflow: auto; */
+    /* Handle overflow content */
+    margin-bottom: 20px;
+
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #32d837;
+}
+
+th {
+    border: 2px solid black;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}

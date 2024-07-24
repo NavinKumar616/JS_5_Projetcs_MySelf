@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="form">
+            <h2>Expense Tracker</h2>
+            <div class="first">
+                <!-- autofocus -->
+                <input type="text" name="ED" id="ED" placeholder="Expense Description"  style="width: 100vh;">
+            </div>
+            <div class="first">
+                <!-- select name="SelectCategory" -> should not contain any spaces -->
+                <select name="SelectCategory" id="Category" style="width: 100vh;">
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="cherry">Cherry</option>
+                </select>
+            </div>
+            <div class="first">
+                <input type="number" name="amount" id="amount" placeholder="Amount" style="width: 100vh;">
+            </div>
+            <button id="btn" style="width: 100vh;">Add Expense</button>
+        </form>
+        <div class="container1">
+            <table style="width: 100vh;">
+                <thead style="background-color: rgb(65, 224, 65);">
+                    <tr>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Ammount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td id="description"></td>
+                        <td id="category"></td>
+                        <td id="amountValue"></td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
